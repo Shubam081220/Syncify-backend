@@ -40,7 +40,7 @@ Syncify Backend is a powerful and scalable backend solution for a music streamin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ramxcodes/Syncify-backend.git
+   git clone https://github.com/Shubam081220/Syncify-backend.git
    cd syncify-backend
    ```
 
@@ -170,3 +170,6 @@ Check `package.json` for the full list of dependencies.
 ### Statistics Routes
 
 - `/api/stats` - Get platform statistics
+
+---
+
