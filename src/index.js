@@ -5,6 +5,7 @@ import { clerkMiddleware } from "@clerk/express";
 import { connectDB } from "./lib/db.js";
 import path from "path";
 import cors from "cors";
+import fs from "fs";
 
 // Routes
 import userRoutes from "./routes/user.routes.js";
@@ -100,7 +101,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-httpServer.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-  connectDB();
-});
+export default app;
